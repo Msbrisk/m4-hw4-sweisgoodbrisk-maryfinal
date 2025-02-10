@@ -1,57 +1,40 @@
-/* 1. Change the font-size of one or more elements */
 h1 {
-  font-size: 36px; /* Change the size of the h1 text */
+  font-size: 36px;
 }
-
-/* 2. Change the text color of one or more elements */
 h1 {
-  color: #2e3d49; /* Dark blue color for h1 */
+  color: #2e3d49;
 }
-
 p {
-  color: #555; /* Medium gray color for paragraphs */
+  color: #555; 
 }
-
-/* 3. Change the background color of at least one element */
 body {
-  background-color: #f4f4f4; /* Light gray background color */
+  background-color: #f4f4f4;
 }
 
 section {
-  background-color: #fff; /* White background for each section */
+  background-color: #fff;
 }
-
-/* 4. Center the text of at least one element */
 h1 {
-  text-align: center; /* Center-align the heading */
+  text-align: center;
 }
-
-/* 5. Center an image element */
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 300px; /* Resize the image */
+  width: 300px;
 }
-
-/* 6. Group any CSS rules using the grouping selector */
 h1, h2 {
   text-align: center;
-  color: #333; /* Apply the same style to both h1 and h2 */
-}
-
-/* 7. Use at least one combined CSS selector */
+  color: #333; 
 div.link {
-  color: #0073e6; /* Style div elements with the class 'link' */
-  text-decoration: none; /* Remove the underline from links */
+  color: #0073e6; 
+  text-decoration: none; 
 }
-
-/* 8. Use at least one CSS combinator */
 header > .link {
-  color: #fff; /* Style the direct child of header with class 'link' */
+  color: #fff; 
 }
 
 div .link {
-  color: #555; /* Style elements with class 'link' inside a div */
+  color: #555;
 }
 
